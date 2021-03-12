@@ -1,0 +1,19 @@
+{
+  "name": "cypress-webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-typescript": "^7.13.0",
+    "@cypress/webpack-preprocessor": "^5.6.0",
+    "babel-loader": "^8.2.2",
+    "cypress": "^6.6.0",
+    "typescript": "^4.2.3",
+    "webpack": "^5.25.0"
+  },
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run"
+  }
+}
